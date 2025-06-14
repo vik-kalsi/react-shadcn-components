@@ -10,6 +10,10 @@ import { CalendarDemo } from './components/CalendarDemo.tsx'
 import { RadioDemo } from './components/RadioDemo.tsx'
 import { CommandDemo } from './components/CommandDemo.tsx'
 import { SkeletonDemo } from './components/SkeletonDemo.tsx'
+import { PaginationDemo } from './components/PaginationDemo.tsx'
+import { CarouselDemo } from './components/CarouselDemo.tsx'
+import { AlertDialogDemo } from './components/AlertDialogDemo.tsx'
+import { ProgressDemo } from './components/ProgressDemo.tsx'
 
 
 
@@ -53,7 +57,6 @@ function App() {
           </div>
 
 
-
           <div className="border-4 border-black p-4">
             <CalendarDemo />
           </div>
@@ -73,6 +76,25 @@ function App() {
             <SkeletonDemo />
           </div>
 
+
+          <div className="border-4 border-black p-4">
+            <PaginationDemo />
+          </div>
+
+
+          <div className="border-4 border-black p-4">
+            <CarouselDemo />
+          </div>
+
+
+          <div className="border-4 border-black p-4">
+            <AlertDialogDemo />
+          </div>
+
+
+          <div className="border-4 border-black p-4">
+            <ProgressDemo />
+          </div>
 
 
         </div>
